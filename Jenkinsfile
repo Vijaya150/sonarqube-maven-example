@@ -20,7 +20,7 @@ pipeline {
                 mvn clean verify sonar:sonar \
                 -Dsonar.projectKey=sonar-analysis \
                 -Dsonar.projectName=sonar-analysis \
-                -Dsonar.host.url=http://56.228.3.46:9000/
+                -Dsonar.host.url=http://16.16.167.86:9001/
             '''
             echo 'SonarQube Analysis Completed'
         }
