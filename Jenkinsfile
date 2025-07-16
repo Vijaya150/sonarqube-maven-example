@@ -12,7 +12,11 @@ pipeline {
                 git url: "https://github.com/Vijaya150/sonarqube-maven-example.git"
             }
         }
-        
+        stage('Build Info') {
+            steps {
+                echo "Building branch: ${params.BRANCH_NAME}"
+            }
+        }
        stage('SonarQube Analysis') {
     steps {
         withSonarQubeEnv('ServerNameSonar') {
