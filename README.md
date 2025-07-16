@@ -21,7 +21,7 @@ Default System administrator credentials are **admin/admin**
 or\
 **`mvn clean install sonar:sonar`**
         
-* Click on the project name to see the code quality inspection
+* Click on the project name to see the code quality inspection.
 <br />
 
 ## Documentation
